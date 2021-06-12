@@ -43,3 +43,9 @@ Git : comandos basicos terminal
 	git status
 	git log
 	git push origin master
+--------------------------------------------------------------------------------
+	git add <modified file>
+	git commit -m "comentario"
+	git status
+	git log
+	git push -u origin master 
