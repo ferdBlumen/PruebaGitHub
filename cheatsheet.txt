@@ -37,3 +37,9 @@ Git : comandos basicos terminal
 	git remote add origin <url> : subir archivo al repositorio de GitHub
 	git remote -v
 	git push origin master
+--------------------------------------------------------------------------------
+	git add <2nd file>
+	git commit -m "comment"
+	git status
+	git log
+	git push origin master
