@@ -34,4 +34,6 @@ Git : comandos basicos terminal
 	git commit
 	git log
 ---------------------------------------------------------------------------------------------------
-	: subir archivo al repositorio de GitHub
+	git remote add origin <url> : subir archivo al repositorio de GitHub
+	git remote -v
+	git push origin master
