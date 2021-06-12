@@ -1,0 +1,37 @@
+Comandos de entorno Linuz
+Git : comandos basicos terminal 
+	pwd : ubicacion del directorio actual
+	git --version : version del git
+	ls : listar contenido del directorio actual
+	ls -l : listar contenido del directorio actual con mas detalle
+	clear : limpiar pantalla
+	ls -lh : listar contenido por tamaño de almacenamiento
+	ls -la : listar contenido ocultos del directorio actual
+	cd <folder name>: cambiar de directorio
+	cd .. : volver al directorio anterior
+	cd /<unit name> : volver al directorio raiz
+	exit : salir del Git Bash
+	mkdir <folder name> : crear un directorio
+	touch <file name> : crear un archivo (cualquier tipo)
+	cat <file name> : mostrar el contenido del archivo
+	rm <file name> : eliminar un archivo
+	rm -r <folder name> : eliminar una carpeta
+	git init:  inicializar repositorio local (sobre la carpeta actual)
+		(se creara una carpeta oculta llamada .git y se denominara .master)
+	rm -rf .git : borrar el repositorio local
+	git config --global user.name "nombre" : configuracion del nombre de usuario
+	git config --global user.email "email" : configuracion del email
+	git config user.name : visualiza el nombre del usuario
+	git config user.email : visualiza el email del usuario
+	git add <file or folder name> : subir el archivo o carpeta al staging area (memoria)
+ 	git status : indica el estado de los archivos subidos al staging area si fueron modificados
+	git commit -m "comentario" : subir archivo al repositorio local
+	git log : indica commit realizado por autor y fecha
+---------------------------------------------------------------------------------------------------
+	procedimiento para actualizar un archivo en git
+	git status
+	git add
+	git commit
+	git log
+---------------------------------------------------------------------------------------------------
+	: subir archivo al repositorio de GitHub
