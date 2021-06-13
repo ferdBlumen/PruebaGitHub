@@ -1,4 +1,4 @@
-Comandos de entorno Linuz
+Comandos de entorno Linux
 Git : comandos basicos terminal 
 	pwd : ubicacion del directorio actual
 	git --version : version del git
@@ -30,7 +30,7 @@ Git : comandos basicos terminal
 ---------------------------------------------------------------------------------------------------
 	procedimiento para actualizar un archivo en git
 	git status
-	git add
+	git add <file>
 	git commit
 	git log
 ---------------------------------------------------------------------------------------------------
@@ -49,3 +49,5 @@ Git : comandos basicos terminal
 	git status
 	git log
 	git push -u origin master 
+--------------------------------------------------------------------------------
+	git clone <url del repositorio remoto> : descarga el projecto remoto a tu repositorio local
